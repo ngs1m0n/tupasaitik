@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: rgb(225, 209, 226);
+  color: rgb(7, 7, 7);
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #474747;
+}
+
+.myphoto {
+  width: 200px;
+  border-radius: 30px;
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.25);
+  margin-bottom: 25spx;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: #474747;
+  margin: 0;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.card {
+  padding: 5px 20px;
+  background: rgb(202, 200, 200);
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #474747;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #474747;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #474747;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(179, 179, 179);
+  border-right: 1px solid rgb(179, 179, 179);
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+}
+
+.knp {
+  background: #474747;
+  padding: 0px 0px;
+  border: none;
+  width: 80px;
+  color: rgb(225, 209, 226);
+  font-style: inherit;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.knp:hover {
+  opacity: 0.9;
+}
+
+.box {
+  position: fixed;
+  bottom: 50px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  background: rgb(148, 148, 148);
+  border-radius: 50%;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.25);
+}
